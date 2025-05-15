@@ -94,3 +94,79 @@ Source-Age: 0
 
 ]
 [2025-05-14 16:55:28,919: INFO: main: <<<<<<<<<<<<<Data Ingestion Stage completed>>>>>>>>>>>>>>]
+[2025-05-14 19:43:18,270: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-14 19:43:18,286: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-14 19:49:20,346: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-14 19:49:20,349: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-14 19:50:11,041: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-14 19:50:11,047: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-14 19:52:22,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-14 19:52:22,992: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-14 19:53:16,637: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-14 19:53:16,641: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-14 19:54:22,301: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-14 19:54:22,303: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-14 19:58:33,235: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-14 19:58:33,237: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-14 20:04:37,955: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-14 20:04:37,958: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-14 20:04:37,960: INFO: common: Created directory at: artifacts]
+[2025-05-14 20:04:37,963: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2025-05-15 11:19:20,624: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 11:19:20,643: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-15 11:19:20,643: INFO: common: Created directory at: artifacts]
+[2025-05-15 11:19:20,643: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2025-05-15 11:19:21,201: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-15 11:19:21,510: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-15 12:08:57,606: INFO: main: <<<<<<<<<<<<<Data Ingestion Stage started>>>>>>>>>>>>>>]
+[2025-05-15 12:08:57,606: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 12:08:57,606: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-15 12:08:57,606: INFO: common: Created directory at: artifacts]
+[2025-05-15 12:08:57,606: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\athar\Projects\Deep Learning\Chicken-Disease-Classification\main.py", line 8, in <module>
+    obj.main()
+  File "c:\users\athar\projects\deep learning\chicken-disease-classification\src\CNNClassifier\pipeline\stage_01_data_ingestion.py", line 12, in main
+    data_ingestion_config= di_config.get_data_ingestion_config() #call function and store in other object
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-05-15 12:12:12,503: INFO: main: <<<<<<<<<<<<<Data Ingestion Stage started>>>>>>>>>>>>>>]
+[2025-05-15 12:12:12,503: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 12:12:12,503: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-15 12:12:12,503: INFO: common: Created directory at: artifacts]
+[2025-05-15 12:12:12,503: INFO: common: Created directory at: artifacts/data_ingestion]
+[2025-05-15 12:12:16,650: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B27D:2A63F5:F4937:11CE4A:6826125C
+Accept-Ranges: bytes
+Date: Thu, 15 May 2025 16:12:13 GMT
+Via: 1.1 varnish
+X-Served-By: cache-mia-kmia1760027-MIA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1747325533.385473,VS0,VE292
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 11092ed2463e45840a5e76c9e83a147de5241665
+Expires: Thu, 15 May 2025 16:17:13 GMT
+Source-Age: 0
+
+]
+[2025-05-15 12:12:16,973: INFO: main: <<<<<<<<<<<<<Data Ingestion Stage completed>>>>>>>>>>>>>>]
+[2025-05-15 12:12:16,973: INFO: main: <<<<<<<<<<<<<<<Prepare Base Model started>>>>>>>>>>>>>]
+[2025-05-15 12:12:16,973: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 12:12:16,973: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-15 12:12:16,973: INFO: common: Created directory at: artifacts]
+[2025-05-15 12:12:16,973: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2025-05-15 12:12:17,443: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-15 12:12:17,617: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-05-15 12:12:17,739: INFO: main: <<<<<<<<<<<<<<<Prepare Base Model completed>>>>>>>>>>>>>]
