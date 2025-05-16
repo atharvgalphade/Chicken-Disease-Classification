@@ -4,8 +4,8 @@ from CNNClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelP
 STAGE_NAME="Data Ingestion Stage"
 try:
     logger.info(f"<<<<<<<<<<<<<{STAGE_NAME} started>>>>>>>>>>>>>>")
-    obj=DataIngestionTrainingPipeline()
-    obj.main()
+    dataingestion=DataIngestionTrainingPipeline()
+    dataingestion.main()
     logger.info(f"<<<<<<<<<<<<<{STAGE_NAME} completed>>>>>>>>>>>>>>")
     
 except Exception as e:
@@ -15,8 +15,8 @@ except Exception as e:
 STAGE_NAME="Prepare Base Model"
 try:
     logger.info(f"<<<<<<<<<<<<<<<{STAGE_NAME} started>>>>>>>>>>>>>")
-    obj= PrepareBaseModelPipeline()
-    obj.main()
+    basemodel= PrepareBaseModelPipeline()
+    basemodel.main()
     logger.info(f"<<<<<<<<<<<<<<<{STAGE_NAME} completed>>>>>>>>>>>>>")
 except Exception as e:
     logger.exception(e)
